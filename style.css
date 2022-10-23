@@ -1,0 +1,219 @@
+:after, :before { box-sizing: border-box; }
+body {font-family: 'Montserrat', sans-serif;}
+
+
+.sluzby {
+    margin-left: 20px;
+    margin-right:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.traveler {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.obrazek {
+    max-width: 350px;
+}
+
+h1 {
+    font-size: 28px;
+    color: black;
+}
+
+
+.podtrh {
+    background-color: #407BFF;
+    height: 2px;
+    width: 50px;;
+    padding: 0px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+}
+
+.nadpis {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.tlacitka {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+	.tlacitka {
+		display: flex;
+        flex-direction: column;
+        justify-content: center;
+	}}
+
+    @media screen and (min-width: 640px) {
+        .tlacitka {
+            justify-content: center;
+            margin-left: auto;
+            margin-right:auto;
+        }
+    }
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    padding: 11px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration-line: none;
+    margin-top: 10px;
+    max-width: 195px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .plaz {
+    background-color: grey;
+    padding: 11px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration-line: none;
+    max-width: 195px;
+    text-align: center; 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  .nadpisek {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 0;
+  }
+
+  .boxy {
+      margin-top: 30px;
+  }
+
+
+
+
+  .mapa, .kaktus, .letadlo, .palma, .destnik ,.karavan {
+      display: flex;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 10px 10px 1px #407BFF1F;
+      background-color: white;
+      margin-bottom: 15px;
+  }
+
+  .textik {
+    font-size: 13px;
+    color: grey;
+    margin-left: 20px;
+}
+
+body {
+    padding-top: 60px;
+    padding-bottom:60px;
+    background-color: #FAFAFA;
+    color: #8B8B8B;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 640px) {
+    .boxy {
+        display: flex;
+        justify-content: space-between;
+    }}
+
+  @media screen and (min-width: 640px) {
+    .mapa, .kaktus, .letadlo, .palma, .destnik ,.karavan {
+        flex-basis: 30%;
+        margin-right: 20px;
+        flex-direction: column;
+        padding: 16px;
+        align-items: center; 
+        text-align: center;
+    }
+    .sluzby {
+        margin-right: 0px;
+    }
+    .textik {
+        margin-left: 0px;
+    }
+    .tlacitka {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dobrodruzstvi {
+        margin-right: 10px;
+    }
+
+    .plaz {
+        margin-left: 10px;
+    }
+
+    .text {max-width: 550px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .delegati {
+        display:flex;
+        justify-content: space-between;
+    }
+    .blok3 {
+        max-width: 430px;
+    }
+    .nadpisek {text-align:left;}
+    .sluzby {
+        max-width: 1040px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .kancelar {display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;}
+
+    .boxy {max-width: 550px;
+    justify-content: space-between;}
+    .blok {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .tlacitka {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .blok1 {
+        max-width: 490px;
+    }
+
+    
+    .letadlo, .karavan {
+        margin-right: 0px;
+    }
+    
+    .text {
+        text-align: left;
+    }
+}
+
